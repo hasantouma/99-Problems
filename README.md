@@ -12,7 +12,6 @@ I first heard of the `99 problem` challenge when I was studying [OCaml][ocaml 99
 * [Python][python 99]
 
 My plan is to do these problems in (some) of the languages here. My goal will be to compare paradigms<sup>1</sup>, how easy it is to setup, test, use, etc.
-------------
 
 <sup>1</sup> I know that most of these languages are multi-paradigm, but I'll categorize them on their **main** paradigm.
 
@@ -25,6 +24,8 @@ Example:
   - LISP
   - **Racket**
   - Clojure
+- Dynamic imperative
+  - Python
 - System
   - **Rust**
 - Logical
