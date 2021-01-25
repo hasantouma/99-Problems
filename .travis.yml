@@ -1,3 +1,4 @@
-    language: c
-    before_install: cd ocaml
-    script: bash -ex ocaml/.travis-ci-ocaml.sh
+language: c
+script:
+  - cd ocaml
+  - bash -ex .travis-ci-ocaml.sh
