@@ -1,4 +1,4 @@
-# OCaml-99-Problems
+# Prolog-99-Problems
 
 [![Build2][2]][0]
 
