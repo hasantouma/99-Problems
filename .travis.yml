@@ -5,6 +5,7 @@ matrix:
       before_script:
         - sudo apt-get update -qq
         - sudo apt-get install -qq ocaml opam
+        - export OPAMYES=1
         - opam init
         - opam install ocamlfind ounit dune
         - eval `opam config env`
