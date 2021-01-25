@@ -1,5 +1,16 @@
 # 99-Problems
 
+[![Build Status](https://travis-ci.com/hasantouma/99-Problems.svg?branch=master)](https://travis-ci.com/hasantouma/99-Problems)
+
+| OCaml             | Prolog            |
+|-------------------|-------------------|
+| [![Build1][1]][5] | [![Build2][2]][5] |
+
+[1]: https://travis-matrix-badges.herokuapp.com/repos/hasantouma/99-Problems/branches/master/1
+[2]: https://travis-matrix-badges.herokuapp.com/repos/hasantouma/99-Problems/branches/master/2
+[5]: https://travis-ci.com/hasantouma/99-Problems
+[//]: # (source: https://github.com/bjfish/travis-matrix-badges)
+
 I first heard of the `99 problem` challenge when I was studying [OCaml][ocaml 99]. But I soon learned that the `99 problem` challenge started with [Prolog][prolog 99]. But now you can find it for almost all languages:
 
 * [LISP][lisp 99]
