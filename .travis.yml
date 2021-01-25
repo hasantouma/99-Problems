@@ -4,9 +4,9 @@ matrix:
       install:
       before_script:
         - sudo apt-get update -qq
-        - sudo apt-get install -qq opam
-        - opam install ocaml ocamlfind ounit dune
+        - sudo apt-get install -qq ocaml opam
         - opam init
+        - opam install ocamlfind ounit dune
         - eval `opam config env`
       script:
         - cd ocaml
