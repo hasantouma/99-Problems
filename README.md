@@ -4,11 +4,11 @@
 
 | OCaml             | Prolog            |
 |-------------------|-------------------|
-| [![Build1][1]][5] | [![Build2][2]][5] |
+| [![Build1][1]][0] | [![Build2][2]][0] |
 
+[0]: https://travis-ci.org/bjfish/grails-ci-build-matrix-example
 [1]: https://travis-matrix-badges.herokuapp.com/repos/hasantouma/99-Problems/branches/master/1?use_travis_com=true
 [2]: https://travis-matrix-badges.herokuapp.com/repos/hasantouma/99-Problems/branches/master/2?use_travis_com=true
-[5]: https://travis-ci.org/bjfish/grails-ci-build-matrix-example
 [//]: # (source: https://github.com/bjfish/travis-matrix-badges)
 
 I first heard of the `99 problem` challenge when I was studying [OCaml][ocaml 99]. But I soon learned that the `99 problem` challenge started with [Prolog][prolog 99]. But now you can find it for almost all languages:
