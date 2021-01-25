@@ -57,7 +57,3 @@ test(elements_in_list_general_case) :-
     elements_in_list(4, [a,b,c,d]).
 :- end_tests(test_elements_in_list).
 
-
-:- begin_tests(test_travis_matrix).
-test(failed_case) :- false.
-:- end_tests(test_travis_matrix).
