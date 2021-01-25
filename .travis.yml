@@ -1,7 +1,7 @@
 matrix:
   include:
     - name: OCaml
-    - language: bash
+      language: bash
       install:
       before_script:
         - sudo apt-get update -qq
@@ -15,7 +15,7 @@ matrix:
         - bash -ex .travis-ci-ocaml.sh
 
     - name: Prolog
-    - language: bash
+      language: bash
       install:
       before_script:
         - sudo apt-add-repository ppa:swi-prolog/devel -y
