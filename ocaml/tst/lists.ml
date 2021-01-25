@@ -3,8 +3,7 @@ open OC99.Lists
 
 let test_last ctxt =
   assert_equal (Some "d") @@ (last [ "a" ; "b" ; "c" ; "d" ]);
-  assert_equal None @@ (last []);
-  assert_equal false @@ (true)
+  assert_equal None @@ (last [])
 
 let test_last_two ctxt =
   assert_equal (Some ("c", "d")) @@ (last_two [ "a" ; "b" ; "c" ; "d" ]);
