@@ -1,6 +1,6 @@
 # OCaml-99-Problems
 
-[![Build Status](https://travis-ci.org/hasantouma/OCaml-99-Problems.svg?branch=master)](https://travis-ci.org/hasantouma/OCaml-99-Problems)
+[![Build Status](https://travis-ci.com/hasantouma/99-Problems.svg?branch=master)](https://travis-ci.com/hasantouma/99-Problems)
 
 Solving the OCaml 99 Problems Challenge
 ------------
