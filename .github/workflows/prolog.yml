@@ -17,9 +17,6 @@ jobs:
           - ubuntu-latest
 
     runs-on: ${{ matrix.os }}
-    defaults:
-      run:
-        working-directory: ./prolog
 
     steps:
       - name: Install SWI-Prolog backend
@@ -28,5 +25,5 @@ jobs:
           swi-prolog-branch: devel
           swi-prolog-version: latest
 
-      - run: swipl -f tst/lsts_test.pl -t run_tests
+      - run: swipl -f prolog/test/lsts_test.pl -t run_tests
 
