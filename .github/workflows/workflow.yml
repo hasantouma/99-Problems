@@ -19,21 +19,27 @@ jobs:
           - 4.12.x
 
     runs-on: ${{ matrix.os }}
+    env:
+      working-directory: ./ocaml
 
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        working-directory: ${{env.working-directory}}
 
       - name: Use OCaml ${{ matrix.ocaml-compiler }}
         uses: ocaml/setup-ocaml@v2
-        working-directory: ./ocaml
+        working-directory: ${{env.working-directory}}
         with:
           ocaml-compiler: ${{ matrix.ocaml-compiler }}
           dune-cache: true
 
       - run: opam install . --deps-only --with-test
+        working-directory: ${{env.working-directory}}
 
       - run: opam exec -- dune build
+        working-directory: ${{env.working-directory}}
 
       - run: opam exec -- dune runtest
+        working-directory: ${{env.working-directory}}
 
