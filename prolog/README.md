@@ -1,7 +1,6 @@
 # Prolog-99-Problems
 
 [![Prolog workflow][badge]][flow]
-[![Build2][2]][0]
 
 Solving the Prolog 99 Problems Challenge
 ------------
