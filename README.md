@@ -2,14 +2,14 @@
 
 [![Build Status](https://travis-ci.com/hasantouma/99-Problems.svg?branch=master)](https://travis-ci.com/hasantouma/99-Problems)
 
-| OCaml                                        | Prolog            |
-|----------------------------------------------|-------------------|
-| [![OCaml workflow][ocaml badge]][ocaml flow] | [![Build2][2]][0] |
+| OCaml                                        | Prolog                                          |
+|----------------------------------------------|-------------------------------------------------|
+| [![OCaml workflow][ocaml badge]][ocaml flow] | [![Prolog workflow][prolog badge]][prolog flow] |
 
 [ocaml badge]: https://github.com/hasantouma/99-Problems/actions/workflows/ocaml.yml/badge.svg?branch=main
 [ocaml flow]: https://github.com/hasantouma/99-Problems/actions/workflows/ocaml.yml
-[0]: https://travis-ci.org/bjfish/grails-ci-build-matrix-example
-[2]: https://travis-matrix-badges.herokuapp.com/repos/hasantouma/99-Problems/branches/master/2?use_travis_com=true
+[prolog badge]: https://github.com/hasantouma/99-Problems/actions/workflows/prolog.yml/badge.svg?branch=main
+[prolog flow]: https://github.com/hasantouma/99-Problems/actions/workflows/prolog.yml
 [//]: # (source: https://github.com/bjfish/travis-matrix-badges)
 
 I first heard of the `99 problem` challenge when I was studying [OCaml][ocaml 99]. But I soon learned that the `99 problem` challenge started with [Prolog][prolog 99]. But now you can find it for almost all languages:
