@@ -1,2 +1,22 @@
-(lang dune 1.0)
+(lang dune 2.9.3)
+;          ^^^^^
+; When changing the version, don't forget to regenerate *.opam files
+; by running [dune build].
+
+(name OC99)
+
+(generate_opam_files true)
+
+(maintainers "Hasan Touma")
+(authors "Hasan Touma")
+(source (github hasantouma/99-Problems))
+
+(package
+  (name OC99)
+  (synopsis "Solving the OCaml 99 Problems Challenge.")
+  (depends
+    dune ; Build system
+    (ocaml
+      (>= 4.02.3))
+    ounit2)) ; Testing module
 
