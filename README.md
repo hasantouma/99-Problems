@@ -2,12 +2,13 @@
 
 [![Build Status](https://travis-ci.com/hasantouma/99-Problems.svg?branch=master)](https://travis-ci.com/hasantouma/99-Problems)
 
-| OCaml             | Prolog            |
-|-------------------|-------------------|
-| [![Build1][1]][0] | [![Build2][2]][0] |
+| OCaml                                        | Prolog            |
+|----------------------------------------------|-------------------|
+| [![OCaml workflow][ocaml badge]][ocaml flow] | [![Build2][2]][0] |
 
+[ocaml badge]: https://github.com/hasantouma/99-Problems/actions/workflows/workflow.yml/badge.svg?branch=main
+[ocaml flow]: https://github.com/hasantouma/99-Problems/actions/workflows/workflow.yml
 [0]: https://travis-ci.org/bjfish/grails-ci-build-matrix-example
-[1]: https://travis-matrix-badges.herokuapp.com/repos/hasantouma/99-Problems/branches/master/1?use_travis_com=true
 [2]: https://travis-matrix-badges.herokuapp.com/repos/hasantouma/99-Problems/branches/master/2?use_travis_com=true
 [//]: # (source: https://github.com/bjfish/travis-matrix-badges)
 
