@@ -26,6 +26,7 @@ jobs:
 
       - name: Use OCaml ${{ matrix.ocaml-compiler }}
         uses: ocaml/setup-ocaml@v2
+        working-directory: ./ocaml
         with:
           ocaml-compiler: ${{ matrix.ocaml-compiler }}
           dune-cache: true

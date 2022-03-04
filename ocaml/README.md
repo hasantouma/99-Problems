@@ -1,5 +1,7 @@
 # OCaml-99-Problems
 
+[![OCaml workflow](https://github.com/hasantouma/99-Problems/actions/workflows/workflow.yml/badge.svg?branch=main)](https://github.com/hasantouma/99-Problems/actions/workflows/workflow.yml)
+
 [![Build1][1]][0]
 
 Solving the OCaml 99 Problems Challenge
