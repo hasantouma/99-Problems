@@ -54,3 +54,5 @@ I will attempt the ones in **bold**.
 [scala 99]: http://aperiodic.net/phil/scala/s-99/
 [clojure 99]: https://github.com/99XProblems/99-Clojure-Problems
 [python 99]: https://wiki.python.org/moin/ProblemSets/99%20Prolog%20Problems%20Solutions
+
+[GitHub Actions ignore paths]: https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#example-including-paths
