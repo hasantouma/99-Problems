@@ -1,7 +1,5 @@
 # 99-Problems
 
-[![Build Status](https://travis-ci.com/hasantouma/99-Problems.svg?branch=master)](https://travis-ci.com/hasantouma/99-Problems)
-
 | OCaml                                        | Prolog                                          |
 |----------------------------------------------|-------------------------------------------------|
 | [![OCaml workflow][ocaml badge]][ocaml flow] | [![Prolog workflow][prolog badge]][prolog flow] |
@@ -31,15 +29,14 @@ Example:
 - Static functional
   - **OCaml**
   - Haskell
-  - **Scala**
 - Dynamic functional
   - LISP
   - **Racket**
   - Clojure
+- Static imperative
+  - **Rust**
 - Dynamic imperative
   - Python
-- System
-  - **Rust**
 - Logical
   - **Prolog**
 

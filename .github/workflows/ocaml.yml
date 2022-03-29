@@ -1,4 +1,4 @@
-name: OC99 workflow
+name: OCaml workflow
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - 'ocaml/**'
-      - '**/ocaml.yml'
+      - '.github/workflows/ocaml.yml'
       - '!**.md'
   pull_request:
     branches:

@@ -1,4 +1,4 @@
-name: Prolog99 workflow
+name: Prolog workflow
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - 'prolog/**'
-      - '**/prolog.yml'
+      - '.github/workflows/prolog.yml'
       - '!**.md'
   pull_request:
     branches:
