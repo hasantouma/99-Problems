@@ -1,5 +1,5 @@
 :- use_module(library(plunit)).
-:- use_module(['../src/lsts.pl']).
+:- use_module(['../src/lists.pl']).
 
 :- begin_tests(test_last).
 test(last_base_case, fail) :-
